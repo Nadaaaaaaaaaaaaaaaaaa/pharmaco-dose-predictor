@@ -1,21 +1,44 @@
-## 📌 Project Overview
-This project focuses on enhancing clinical decision-making through AI-powered predictive modeling. It is developed in collaboration with doctors and engineers at Fattouma Bourguiba Hospital to improve the prescription process and patient outcomes.
+# PharmacoDose Predictor
 
-## 🧠 Objectives
-- Develop and train machine learning models to **predict optimal drug dosages** for different diseases.
-- Ensure model accuracy and reliability for **clinical application**.
-- Embed these models into a **desktop application** for practical use by healthcare professionals.
+🎯 **Desktop application to assist with accurate therapeutic dose prediction based on Random Forest machine learning.**
 
-## ⚙️ Key Features
-- AI-driven recommendations for drug dosages.
-- Interactive user interface tailored to medical workflows.
-- Integration of medical datasets with real-time processing.
-- Model evaluation using metrics like accuracy, precision, recall, F1 score, and MAE.
+## 🧪 Context
 
-## 🛠 Technologies Used
-- **Languages:** Python, JavaScript (React for frontend)
-- **ML Libraries:** scikit-learn, XGBoost, LightGBM
-- **Database:** MySQL 
-- **Frameworks:** Flask (for backend API), Electron (for desktop app)
-- **Tools:** Git, VS Code, Jupyter Notebooks
+This platform is designed for **clinical pharmacologists**, particularly those working on diseases such as **tuberculosis**, where precise dosage is critical to achieving a **therapeutic drug concentration**.
+
+The application workflow:
+
+1. Select the **post-transplantation duration** (≥ 80 or < 80 days).
+2. Enter the **patient's clinical information**.
+3. Get an **automatically predicted optimal dose** using a trained **Random Forest model**.
+
+## 🖥️ Technologies Used
+
+- ⚡ **Electron.js** – for the cross-platform desktop interface  
+- 🐍 **Python** – for dose prediction through `predict_model.py`  
+- 🌲 **Random Forest (scikit-learn)** – supervised machine learning model  
+- 🔗 `python-shell` – to connect Node.js with Python scripts
+
+## 👨‍⚕️ Who is it for?
+Hospital pharmacists
+
+Transplant specialists
+
+Pharmacokinetic researchers
+
+## 🤖 Model Overview
+The dose prediction is performed using a Random Forest algorithm trained on clinical data to estimate the most suitable dosage for maintaining a therapeutic concentration.
+
+
+## 🛠️ Installation
+
+1. **Clone the repository**:
+
+```bash
+git clone https://github.com/<your-username>/pharmaco-dose-predictor.git
+cd pharmaco-dose-predictor
+
+## 📷 Screenshots
+
   ![](pharma.png)
+
