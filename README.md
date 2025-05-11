@@ -29,6 +29,10 @@ Pharmacokinetic researchers
 ## 🤖 Model Overview
 The dose prediction is performed using a Random Forest algorithm trained on clinical data to estimate the most suitable dosage for maintaining a therapeutic concentration.
 
+## 📷 Screenshots
+
+  ![](pharma.png)
+
 
 ## 🛠️ Installation
 
@@ -38,7 +42,4 @@ The dose prediction is performed using a Random Forest algorithm trained on clin
 git clone https://github.com/<your-username>/pharmaco-dose-predictor.git
 cd pharmaco-dose-predictor
 
-## 📷 Screenshots
-
-  ![](pharma.png)
 
